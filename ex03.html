@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício javaScript 02</title>
+</head>
+
+<body>
+    <script>
+        //Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:
+        const skills = ["javascript", "reactjs", 'react navite'];
+
+        function haveSkill(skills) {
+            for (skill of skills) {
+                if (skill === "javascript") {
+                    return true;
+                } else {
+                    return false
+                }
+                //console.log(skills.indexOf(skill) + " - " + skill);
+            }
+        };
+
+        console.log(haveSkill(skills));;
+    </script>
+</body>
+
+</html>
